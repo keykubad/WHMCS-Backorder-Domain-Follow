@@ -11,3 +11,5 @@ Genel Email Template Kısmından "backorder" adında boş bir mail template olu�
 > Plesk için
 
     /opt/plesk/php/7.4/bin/php -q /var/www/vhosts/ekonomikhost.net/httpdocs/crons/cron.php all --force -v
+
+Web Sitem : www.keykubad.com
