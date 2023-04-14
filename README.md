@@ -1,15 +1,15 @@
 ### [WHMCS-Backorder-Domain-Follow](https://github.com/keykubad/WHMCS-Backorder-Domain-Follow)
 
-Kurulum sonrası ayarlar yapıldıktan sonra Cron Jobs işlerine aşağıdaki kodu ekleyiniz. Kod kısmında;
-ea-php71 yazan kısım php surumunuze göre değişiniz. 
+After the post-installation settings are made, add the following code to the Cron Jobs jobs. In the code part;
+Change the part that says ea-php71 according to your php version.
 
-Genel Email Template Kısmından "backorder" adında boş bir mail template oluşturursanız mail ile bilgi sistemi problemsiz çalışacaktır.
+If you create an empty mail template named "backorder" from the General Email Template Section, the mail information system will work without any problems.
 
 
-    ea-php71 -q /home/xxxx/public_html/modules/addons/Backorder_Domain_Takip/cron.php
+    ea-php71 -q /home/xxxx/public_html/modules/addons/Backorder_Domain_Tracking/cron.php
 
-> Plesk için
+> for Plesk
 
-    /opt/plesk/php/7.4/bin/php -q /var/www/vhosts/ekonomikhost.net/httpdocs/crons/cron.php all --force -v
+    /opt/plesk/php/7.4/bin/php -q /var/www/vhosts/ Ekonomihost.net/httpdocs/crons/cron.php all --force -v
 
-Web Sitem : www.keykubad.com
+My Website: www.keykubad.com
