@@ -13,7 +13,8 @@ If you create an empty mail template named "backorder" from the General Email Te
 
     /opt/plesk/php/7.4/bin/php -q /var/www/vhosts/ Ekonomihost.net/httpdocs/crons/cron.php all --force -v
 
-#Installation
+Installation
+
 Activate the add-on from the Addon Module section.
 Create full authorization api
 
