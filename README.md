@@ -1,5 +1,6 @@
 ### [WHMCS-Backorder-Domain-Follow](https://github.com/keykubad/WHMCS-Backorder-Domain-Follow)
 
+Cron And Hooks Activate
 After the post-installation settings are made, add the following code to the Cron Jobs jobs. In the code part;
 Change the part that says ea-php71 according to your php version.
 
@@ -11,7 +12,8 @@ If you create an empty mail template named "backorder" from the General Email Te
 > for Plesk
 
     /opt/plesk/php/7.4/bin/php -q /var/www/vhosts/ Ekonomihost.net/httpdocs/crons/cron.php all --force -v
-    
+
+#Installation
 Activate the add-on from the Addon Module section.
 Create full authorization api
 
